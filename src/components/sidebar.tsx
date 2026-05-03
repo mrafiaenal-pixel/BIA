@@ -29,7 +29,7 @@ const Sidebar = () => {
         { name: "Riwayat Data", path: "/riwayat", icon: History, emoji: "📈" },
         { name: "Lahan Saya", path: "/lahan", icon: MapIcon, emoji: "🌾" },
         { name: "Perangkat IoT", path: "/iot", icon: PlugZap, emoji: "🔌" },
-        { name: "Kamera", path: "/camera", icon: Camera, emoji: "📷" },
+        { name: "Find Physic", path: "/find-physic", icon: Camera, emoji: "📷" },
         { name: "Notifikasi", path: "/notifikasi", icon: Bell, emoji: "🔔", badge: "2" },
         { name: "Laporan", path: "/laporan", icon: FileText, emoji: "📄" },
         { name: "Pengaturan", path: "/settings", icon: Settings, emoji: "⚙️" },

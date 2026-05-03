@@ -43,7 +43,7 @@ export default function Navbar() {
                 <ul className="hidden md:flex gap-10 items-center font-semibold text-stone-500 text-sm">
                     <li><Link href="/" className="hover:text-green-600 transition">Beranda</Link></li>
                     <li><Link href="/dashboard" className="hover:text-green-600 transition">Dashboard</Link></li>
-                    <li><Link href="/camera" className="hover:text-green-600 transition">Kamera</Link></li>
+                    <li><Link href="/find-physic" className="hover:text-green-600 transition">Find Physic</Link></li>
                 </ul>
 
                 <button
