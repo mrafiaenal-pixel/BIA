@@ -4,31 +4,34 @@ TaniSmart adalah sistem monitoring nutrisi tanaman berbasis IoT yang modern, dir
 
 ## Tech Stack
 - **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS v4
+- **Styling**: Tailwind CSS v3.4 (Konfigurasi v4 ready)
 - **Icons**: Lucide React
 - **Animations**: Framer Motion
 - **Fonts**: Syne, DM Mono, Plus Jakarta Sans
 
 ## Cara Menjalankan Project
 
-1. **Persiapan**:
-   Pastikan Anda sudah berada di folder root project.
+1. **Buka Terminal**:
+   Buka terminal pilihan Anda (VS Code Terminal, CMD, atau PowerShell).
 
-2. **Jalankan Development Server**:
-   Jalankan perintah berikut di terminal:
+2. **Masuk ke Folder Proyek**:
+   Pastikan lokasi terminal Anda berada di folder utama (root) yang berisi file `package.json`.
+
+3. **Jalankan Perintah**:
+   Ketik perintah berikut:
    ```bash
    npm run dev
    ```
 
-3. **Akses Website**:
+4. **Akses Website**:
    Buka browser dan kunjungi:
    [http://localhost:3000](http://localhost:3000)
 
 ## Fitur Utama
-- **Dashboard Nutrisi**: Pantau level NPK, pH, dan kelembaban tanah.
-- **Kamera AI**: Identifikasi gejala defisiensi nutrisi melalui foto.
-- **Real-time Monitoring**: Status perangkat IoT yang selalu terupdate.
-- **Landing Page Modern**: Desain profesional dengan performa tinggi.
+- **Dashboard Nutrisi**: Pantau level NPK, pH, dan kelembaban tanah dengan desain gelap yang futuristik.
+- **Kamera AI**: Identifikasi gejala defisiensi nutrisi melalui pengambilan foto langsung.
+- **Real-time Monitoring**: Status perangkat IoT (Sensor A, B, C) yang terpantau secara live.
+- **Responsive Design**: Tampilan yang optimal baik di desktop maupun perangkat mobile.
 
 ---
 © 2024 TaniSmart Indonesia. Digitalizing Agriculture for Better Future.
