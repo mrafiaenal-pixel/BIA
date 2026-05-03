@@ -17,9 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-stone-50`}>
+      <body className={inter.className}>
         <NavbarWrapper />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

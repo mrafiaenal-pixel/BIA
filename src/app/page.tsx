@@ -1,21 +1,20 @@
 'use client';
 
-import { useState } from "react";
-import Image from "next/image";
+import React from "react";
 import Link from "next/link";
 import { ArrowRight, Leaf, Shield, Smartphone, ChevronRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-800 font-sans selection:bg-green-100">
+    <div className="min-h-screen bg-stone-50 text-stone-800 selection:bg-green-100">
       {/* Hero Section */}
       <header className="relative pt-40 pb-24 px-6 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] pointer-events-none">
-            <div className="absolute top-20 left-10 w-64 h-64 bg-green-100 rounded-full blur-[100px] opacity-60 animate-blob" />
-            <div className="absolute bottom-10 right-10 w-72 h-72 bg-emerald-100 rounded-full blur-[100px] opacity-60 animate-blob animation-delay-2000" />
+            <div className="absolute top-20 left-10 w-64 h-64 bg-green-200 rounded-full blur-[100px] opacity-40 animate-blob" />
+            <div className="absolute bottom-10 right-10 w-72 h-72 bg-emerald-200 rounded-full blur-[100px] opacity-40 animate-blob animation-delay-2000" />
         </div>
 
-        <div className="max-w-5xl mx-auto text-center relative">
+        <div className="max-w-5xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-stone-200 rounded-full shadow-sm mb-8 animate-fade-in">
             <span className="flex h-2 w-2 rounded-full bg-green-500 animate-pulse" />
             <span className="text-xs font-bold text-stone-600 uppercase tracking-widest">Inovasi Tani Digital 4.0</span>
