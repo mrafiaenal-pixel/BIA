@@ -1,16 +1,34 @@
-# React + Vite
+# TaniSmart - IoT Plant Nutrition Monitoring System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaniSmart adalah sistem monitoring nutrisi tanaman berbasis IoT yang modern, dirancang untuk membantu petani memantau kondisi lahan secara real-time.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Fonts**: Syne, DM Mono, Plus Jakarta Sans
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cara Menjalankan Project
 
-## React Compiler
+1. **Persiapan**:
+   Pastikan Anda sudah berada di folder root project.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Jalankan Development Server**:
+   Jalankan perintah berikut di terminal:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+3. **Akses Website**:
+   Buka browser dan kunjungi:
+   [http://localhost:3000](http://localhost:3000)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Fitur Utama
+- **Dashboard Nutrisi**: Pantau level NPK, pH, dan kelembaban tanah.
+- **Kamera AI**: Identifikasi gejala defisiensi nutrisi melalui foto.
+- **Real-time Monitoring**: Status perangkat IoT yang selalu terupdate.
+- **Landing Page Modern**: Desain profesional dengan performa tinggi.
+
+---
+© 2024 TaniSmart Indonesia. Digitalizing Agriculture for Better Future.
