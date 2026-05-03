@@ -1,13 +1,16 @@
+
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Syne, DM_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import NavbarWrapper from "@/components/navbar-wrapper";
 
-const inter = Inter({ subsets: ["latin"] });
+const syne = Syne({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-syne" });
+const dmMono = DM_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-dm-mono" });
+const plusJakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-plus-jakarta" });
 
 export const metadata: Metadata = {
   title: "TaniSmart - IoT Agriculture",
-  description: "Digital monitoring system for your farm",
+  description: "IoT Plant Nutrition Monitoring System",
 };
 
 export default function RootLayout({
@@ -17,9 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${syne.variable} ${dmMono.variable} ${plusJakarta.variable} font-sans`}>
         <NavbarWrapper />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
