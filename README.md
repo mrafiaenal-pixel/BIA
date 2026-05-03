@@ -2,30 +2,28 @@
 
 TaniSmart adalah sistem monitoring nutrisi tanaman berbasis IoT yang modern, dirancang untuk membantu petani memantau kondisi lahan secara real-time.
 
-## Tech Stack
-- **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS v3.4 (Konfigurasi v4 ready)
-- **Icons**: Lucide React
-- **Animations**: Framer Motion
-- **Fonts**: Syne, DM Mono, Plus Jakarta Sans
+## Cara Menjalankan Project di Laptop Anda
 
-## Cara Menjalankan Project
+Jika Anda baru saja mengunduh folder ini, ikuti langkah-langkah berikut:
 
-1. **Buka Terminal**:
-   Buka terminal pilihan Anda (VS Code Terminal, CMD, atau PowerShell).
+1. **Masuk ke Folder Proyek**:
+   Buka terminal (CMD / PowerShell / Terminal VS Code) dan pastikan posisi Anda berada di folder yang berisi file `package.json`.
 
-2. **Masuk ke Folder Proyek**:
-   Pastikan lokasi terminal Anda berada di folder utama (root) yang berisi file `package.json`.
+2. **Instal Library (PENTING)**:
+   Ketik perintah berikut untuk mengunduh semua library yang dibutuhkan (termasuk Next.js):
+   ```bash
+   npm install
+   ```
+   *Tunggu sampai proses selesai dan muncul folder `node_modules`.*
 
 3. **Jalankan Perintah**:
-   Ketik perintah berikut:
+   Setelah instalasi selesai, ketik:
    ```bash
    npm run dev
    ```
 
 4. **Akses Website**:
-   Buka browser dan kunjungi:
-   [http://localhost:3000](http://localhost:3000)
+   Buka browser dan kunjungi: [http://localhost:3000](http://localhost:3000)
 
 ## Fitur Utama
 - **Dashboard Nutrisi**: Pantau level NPK, pH, dan kelembaban tanah dengan desain gelap yang futuristik.
