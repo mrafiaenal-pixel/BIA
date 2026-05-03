@@ -1,11 +1,19 @@
 self.__BUILD_MANIFEST = {
+  "/_error": [
+    "./static/chunks/pages/_error.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
+    "/Home",
     "/_app",
-    "/_error"
+    "/_error",
+    "/auth/Register",
+    "/auth/login",
+    "/users/dashboard",
+    "/users/findPhisik"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
